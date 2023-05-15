@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower {
+    font-family:'Pretendard-Regular';
+    font-size: 25px;
+    text-align:center;
+    padding-top: 50px;
+}
+.w-font {
+    font-family:'Cafe24Ssurround';
+    font-size:25px;
+    color:black;
+    padding-left: 40px;
+}
+.p-font {
+    font-family:'SBAggroB';
+    font-size:35px;
+    color:white;
+    padding-top: 310px;
+    padding-left: 50px;
+}
+
+.bg1 {
+    background-image:url("https://img.freepik.com/free-photo/seoul-cityscape-at-twilight-in-south-korea_335224-273.jpg?w=1060&t=st=1683960729~exp=1683961329~hmac=bf82679f8c325281e43fbea8cebe4cf2afce4491d34d2fd6fa065cc5ff77eab3");
+    background-repeat:no-repeat;
+    background-size:cover;
+    Height:500px;
+
+}
+.nobullet {
+    list-style-type: none;
+    font-family: 'Pretendard-Regular';
+    font-size: 15px;
+    text-align:center;
+}
+
+nav a {
+    font-family: 'Pretendard-Regular';
+    text-decoration: none;
+    color:black;
+    margin:20px;
+}
+
+nav a:hover {
+    color: rgb(28, 96, 232);
+    transition: 0.5s;
+}
+
+nav {
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#horizontal-underline {
+    position:absoulte;
+    width:0;
+    background-color:blue;
+    top:0;
+    left:0;
+    height:4px;
+    transition:0.5s;
+}
+
+
+#input1 {
+    font-family: 'Pretendard-Regular';
+    width:200px;
+    height:36px;
+    color: #f7f8f9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+
+#input2 {
+    font-family: 'Pretendard-Regular';
+    width:80px;
+    height:36px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
