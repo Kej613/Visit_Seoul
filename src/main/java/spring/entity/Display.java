@@ -18,7 +18,7 @@ public class Display {
     @Id
     @Column(name="display_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;  // 행사 코드
+    private Long id;  // 행사정보
 
     @Column(nullable= false, length=50)
     private String DisplayNm;  // 행사이름
