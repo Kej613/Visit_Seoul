@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <title>Visit_Seoul</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1 class="w-font"> Visit Seoul </h1>
+        <form>
+            <input id="input1" type="search" placeholder="검색어를 입력해주세요"/>
+            <input id="input2" type="submit" value="검색"/>
+        </form>
+    </div>
+</header>
+<nav>
+    <div id="horizontal-underline"></div>
+    <a href="#"><b>지금의 서울</b></a>
+    <a href="#"><b>지역</b></a>
+    <a href="#"><b>문화행사</b></a>
+    <a href="#"><b>여행정보</b></a>
+</nav><br>
+<div class="bg1">
+    <p class="p-font">서울의 중심에서 만나는 특별한 순간</p>
+</div>
+<p class="flower"> 꽃 구경 하기 좋은 서울 명소</p>
+
+<h1> 서울시 문화 행사 정보 </h1>
+<div>
+    행사 이름 : <span th:text="${displayDto.displayNm}"></span>
+</div>
+<div>
+    상세 정보 : <span th:text="${displayDto.displayDetail}"></span>
+</div>
+<div>
+    행사 등록일 : <span th:text="${displayDto.regTime}"></span>
+</div>
+<div>
+    행사 비용: <span th:text="${displayDto.price}"></span>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -21,12 +21,12 @@ public class Display {
     private Long id;  // 행사정보
 
     @Column(nullable= false, length=50)
-    private String DisplayNm;  // 행사이름
+    private String displayNm;  // 행사이름
     @Column(name="price", nullable= false)
     private int price;   //비용
     @Lob
     @Column(nullable= false)
-    private int DisplayDetail;  //상세정보
+    private int displayDetail;  //상세정보
     @Enumerated(EnumType.STRING)
     private DisplayStatus displayStatus; //행사 현황
     private LocalDateTime regTime;  //등록 시간
